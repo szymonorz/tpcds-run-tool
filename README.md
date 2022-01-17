@@ -1,5 +1,11 @@
 # tpcds-run-tool
 
+```
+Make sure to run
+* export RNGSEED_DATASET=42069
+before running the script :^)
+```
+
 This is a very basic set of scripts to automate the tasks of
 
 * Downloading/compiling the server (MariaDB, MySQL and PostgreSQL are supported)
