@@ -1,15 +1,20 @@
 # Dataset (not loaded)
 data-for-pg
 data-for-pg.txt
-v2.8.0rc4-pg
+v2.8.0rc4-pg/
 queries-for-pg.txt
-queries-for-pg
+queries-for-pg/
+tpc-ds-tool.zip
 
 # PostgreSQL itself
-postgresql-11.2
-postgresql-11.2-inst
+load-pg.sql
+postgresql-14.1.tar.bz2
+postgresql-14.1/
+postgresql-14.1-inst/
 pgdata
 
 # logs
 logs
 pglogfile
+benchmark-output-raw.txt
+pg-result.txt
