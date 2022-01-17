@@ -23,7 +23,9 @@ if [ ! -d v2.8.0rc4-pg ] ; then
   rm -rf tmp
 
   cd v2.8.0rc4-pg/tools
-  make
+  export LINUX_CFLAGS="-g -Wall -fcommon"
+  sed -i 's/nItemIndex/kItemIndex/g' s_catalog_order.c
+  make -e
 )
 fi
 
